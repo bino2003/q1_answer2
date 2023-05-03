@@ -8,7 +8,10 @@ class Product{
   late String discount;
   late String image;
   late String New;
+  late String soon;
 
-  Product([name, brand, price, trend, discount, image, New]);
+
+  Product(this.name, this.brand, this.price, this.trend, this.discount,
+      this.image, this.New,this.soon);
 
 }
